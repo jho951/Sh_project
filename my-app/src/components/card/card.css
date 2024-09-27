@@ -1,4 +1,4 @@
-.container{
+.product-container{
     width: 100%;
     max-width: 250px;
     aspect-ratio: 1/1;
@@ -8,6 +8,10 @@
     border:1px solid gainsboro;
     border-radius: 10px;
     text-align: center;
+}
+.product-container:hover{
+    background-color:gray;
+    color:white
 }
 
 .product-title{

@@ -6,13 +6,9 @@ import "../style/Product.css";
 
 const Product = () => {
   return (
-    <main className='product-page-container'>
-      <section className='card-wrap'>
-        {dummy.map((item) => (
-          <Card product={item} />
-        ))}
-      </section>
-    </main>
+    <section className='card-wrap'>
+      {dummy && dummy.map((item) => <Card key={item?.id} product={item} />)}
+    </section>
   );
 };
 

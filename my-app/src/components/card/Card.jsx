@@ -3,10 +3,12 @@ import "./card.css";
 
 const Card = ({ product }) => {
   return (
-    <div className='container'>
-      <h2 className='product-title'>{product.title}</h2>
-      <p className='product-contents'>{product.contents}</p>
-    </div>
+    product && (
+      <div className='product-container'>
+        <h2 className='product-title'>{product.title}</h2>
+        <p className='product-contents'>{product.contents}</p>
+      </div>
+    )
   );
 };
 

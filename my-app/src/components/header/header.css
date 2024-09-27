@@ -1,0 +1,22 @@
+.header-contaier{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    background-color: green;
+
+}
+
+.header-element{
+    width: 100%;
+    max-width: calc(100%- 50px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-element-title{
+    color:white;
+    font-weight: 600;
+}
