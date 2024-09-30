@@ -5,8 +5,8 @@ public class test1 {
 		int example1 = 200;
 		int example3 = 300;
 		int example2 = 100; 
-		String example4 ="는";
+		char  example4 ='는';
 	
-		System.out.println("예시"+example4 +":" + example1 + example2 + example3 );
+		System.out.println("예시"+ example4 +":" + (example1 + example2 + example3) );
 	}
 }
