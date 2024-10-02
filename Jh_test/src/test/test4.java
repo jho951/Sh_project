@@ -9,6 +9,8 @@ public class test4 {
 		        double example2 = 0.0 / 0.0;
 		        // infinity 발생
 		        double example3 = 5.0 / 0.0;
+		        String aaa= "가나다라마바";
+		        System.out.println(aaa.split("")[0]);
 		        
 		        System.out.println(Double.isNaN(example1)); 
 		        System.out.println(Double.isNaN(example2));
